@@ -1,0 +1,30 @@
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.deps.json
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\bin\Debug\net5.0\ref\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.pdb
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csprojAssemblyReference.cache
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.AssemblyInfoInputs.cache
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.AssemblyInfo.cs
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csproj.CoreCompileInputs.cache
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csproj.CopyComplete
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\ref\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.pdb
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.deps.json
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\bin\Debug\net5.0\ref\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.pdb
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csprojAssemblyReference.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.AssemblyInfoInputs.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.AssemblyInfo.cs
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csproj.CoreCompileInputs.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csproj.CopyComplete
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\ref\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.pdb

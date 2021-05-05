@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\importDataExcelToDatabase.API - Copy\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj": {}
+  },
+  "projects": {
+    "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj",
+        "projectName": "FilterData.Core",
+        "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj",
+        "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+        "outputPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
+        "projectName": "FilterData.Infrastructure",
+        "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+        "outputPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj": {
+                "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\importDataExcelToDatabase.API - Copy\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\importDataExcelToDatabase.API - Copy\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
+        "projectName": "importDataExcelToDatabase.API",
+        "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
+        "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+        "outputPath": "E:\\importDataExcelToDatabase.API - Copy\\importDataExcelToDatabase.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj": {
+                "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj"
+              },
+              "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
+                "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

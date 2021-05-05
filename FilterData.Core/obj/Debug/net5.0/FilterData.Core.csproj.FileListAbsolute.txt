@@ -1,0 +1,24 @@
+E:\importDataExcelToDatabase.API\FilterData.Core\bin\Debug\net5.0\FilterData.Core.deps.json
+E:\importDataExcelToDatabase.API\FilterData.Core\bin\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API\FilterData.Core\bin\Debug\net5.0\ref\FilterData.Core.dll
+E:\importDataExcelToDatabase.API\FilterData.Core\bin\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfoInputs.cache
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfo.cs
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csproj.CoreCompileInputs.cache
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\ref\FilterData.Core.dll
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csprojAssemblyReference.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\bin\Debug\net5.0\FilterData.Core.deps.json
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\bin\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\bin\Debug\net5.0\ref\FilterData.Core.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\bin\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csprojAssemblyReference.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfoInputs.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfo.cs
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csproj.CoreCompileInputs.cache
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\ref\FilterData.Core.dll
+E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.pdb

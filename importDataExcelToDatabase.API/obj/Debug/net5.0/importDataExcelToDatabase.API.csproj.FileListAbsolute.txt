@@ -1,0 +1,72 @@
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\appsettings.Development.json
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\appsettings.json
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.exe
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.deps.json
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.runtimeconfig.json
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.runtimeconfig.dev.json
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.pdb
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Infrastructure.pdb
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csprojAssemblyReference.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.AssemblyInfoInputs.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.AssemblyInfo.cs
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csproj.CoreCompileInputs.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.MvcApplicationPartsAssemblyInfo.cs
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.MvcApplicationPartsAssemblyInfo.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\staticwebassets\importDataExcelToDatabase.API.StaticWebAssets.Manifest.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\staticwebassets\importDataExcelToDatabase.API.StaticWebAssets.xml
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\scopedcss\bundle\importDataExcelToDatabase.API.styles.css
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.RazorTargetAssemblyInfo.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csproj.CopyComplete
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.pdb
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.genruntimeconfig.cache
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\EPPlus.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\importDataExcelToDatabase.API\importDataExcelToDatabase.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\appsettings.Development.json
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\appsettings.json
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.exe
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.deps.json
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.runtimeconfig.json
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.runtimeconfig.dev.json
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.pdb
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\EPPlus.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Core.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Infrastructure.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Core.pdb
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Infrastructure.pdb
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csprojAssemblyReference.cache
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.AssemblyInfoInputs.cache
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.AssemblyInfo.cs
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csproj.CoreCompileInputs.cache
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.MvcApplicationPartsAssemblyInfo.cs
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.MvcApplicationPartsAssemblyInfo.cache
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\staticwebassets\importDataExcelToDatabase.API.StaticWebAssets.Manifest.cache
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\staticwebassets\importDataExcelToDatabase.API.StaticWebAssets.xml
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\scopedcss\bundle\importDataExcelToDatabase.API.styles.css
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.RazorTargetAssemblyInfo.cache
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csproj.CopyComplete
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.pdb
+E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.genruntimeconfig.cache

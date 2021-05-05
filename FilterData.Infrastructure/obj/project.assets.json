@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "FilterData.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FilterData.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FilterData.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FilterData.Core/1.0.0": {
+      "type": "project",
+      "path": "../FilterData.Core/FilterData.Core.csproj",
+      "msbuildProject": "../FilterData.Core/FilterData.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FilterData.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Trong Thao\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
+      "projectName": "FilterData.Infrastructure",
+      "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+      "outputPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj": {
+              "projectPath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
