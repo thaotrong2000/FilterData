@@ -66,5 +66,7 @@ namespace FilterData.Core.Entities.Customer
         /// Ghi chú
         /// </summary>
         public string Note { get; set; }
+
+        public string Status { get; set; }
     }
 }

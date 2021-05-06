@@ -17,7 +17,7 @@ namespace FilterData.Core.Interface.Repository
         /// Phương thức thực hiện việc Lấy toàn bộ dữ liệu từ DataBase
         /// </summary>
         /// <returns></returns>
-        public int PostData(List<Customer> customer);
+        public List<Customer> PostData(List<Customer> customer);
 
         public bool CheckExistCustomerId(string customerId);
 

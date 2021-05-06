@@ -89,7 +89,7 @@ namespace FilterData.Infrastructure.Repository
         /// <param name="customer"></param>
         /// <returns></returns>
         /// CreatedBy: NTTHAO(6/5/2021)
-        public int PostData(List<Customer> customer)
+        public List<Customer> PostData(List<Customer> customer)
         {
             // Lấy dữ liệu từ Excel để thêm vào DataBase
             var listCustomer = customer;
@@ -129,6 +129,7 @@ namespace FilterData.Infrastructure.Repository
                 checkIdExist = CheckExistCustomerId(listCustomer[countList].CustomerId);
                 if (checkIdExist == true)
                 {
+                    listCustomer[countList].Status = "Mã khách hàng đã tồn tại trong hệ thống";
                     continue;
                 }
 
@@ -137,6 +138,7 @@ namespace FilterData.Infrastructure.Repository
                 checkPhoneNumber = CheckExistPhoneNumber(listCustomer[countList].PhoneNumber);
                 if (checkPhoneNumber == true)
                 {
+                    listCustomer[countList].Status = "SĐT đã có trong hệ thống";
                     continue;
                 }
 
@@ -145,7 +147,7 @@ namespace FilterData.Infrastructure.Repository
                 customers = dbConnection.Execute("Proc_InsertCustomer", param: dynamicParameters, commandType: CommandType.StoredProcedure);
             }
 
-            return customers;
+            return listCustomer;
         }
     }
 }

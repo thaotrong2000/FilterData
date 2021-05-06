@@ -15,7 +15,7 @@ namespace FilterData.Core.Interface.Service
         /// </summary>
         /// <returns></returns>
         /// CreatedBy: NTTHAO(5/5/2021)
-        public int getAll(List<Customer> listCustomer);
+        public List<Customer> getAll(List<Customer> listCustomer);
 
         public DateTime dateOfBirth(string birth);
     }

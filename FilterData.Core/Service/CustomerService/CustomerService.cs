@@ -36,7 +36,7 @@ namespace FilterData.Core.Service.CustomerService
         /// </summary>
         /// <returns></returns>
         /// Lấy toàn bộ thông tin khách hàng kèm theo lọc dữ liệu
-        public int getAll(List<Customer> listCustomer)
+        public List<Customer> getAll(List<Customer> listCustomer)
         {
             // Xử dụng để lấy dữ liệu từ file Excel
             var customers = listCustomer;

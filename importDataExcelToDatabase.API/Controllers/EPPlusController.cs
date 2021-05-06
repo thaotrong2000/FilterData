@@ -45,6 +45,9 @@ namespace importDataExcelToDatabase.API.Controllers
                 return DemoResponse<List<Customer>>.GetResult(-1, "Not Support file extension");
             }
 
+            // Lưu biến chưa các dữ liệu khách hàng, bao gồm trạng thái đã được cập nhật
+            var customersGetAll = new List<Customer>();
+
             using (var stream = new MemoryStream())
             {
                 await formFile.CopyToAsync(stream, cancellationToken);
@@ -82,7 +85,8 @@ namespace importDataExcelToDatabase.API.Controllers
                             CompanyTaxCode = worksheet.Cells[row, 8].Value != null ? worksheet.Cells[row, 8].Value.ToString().Trim() : null,
                             Email = worksheet.Cells[row, 9].Value != null ? worksheet.Cells[row, 9].Value.ToString().Trim() : null,
                             Address = worksheet.Cells[row, 10].Value != null ? worksheet.Cells[row, 10].Value.ToString().Trim() : null,
-                            Note = worksheet.Cells[row, 11].Value != null ? worksheet.Cells[row, 11].Value.ToString().Trim() : null
+                            Note = worksheet.Cells[row, 11].Value != null ? worksheet.Cells[row, 11].Value.ToString().Trim() : null,
+                            Status = "Hợp lệ"
                         };
                         // Thêm một bản ghi vào danh sách
                         list.Add(newCustomer);
@@ -91,10 +95,10 @@ namespace importDataExcelToDatabase.API.Controllers
                 listCustomer = list;
 
                 // Xử lý những dữ liệu đã thêm vào trong danh sách List(listCustomer)
-                var customersGetAll = _customerService.getAll(listCustomer);
+                customersGetAll = _customerService.getAll(listCustomer);
             }
 
-            return DemoResponse<List<Customer>>.GetResult(0, "OK", list);
+            return DemoResponse<List<Customer>>.GetResult(0, "OK", customersGetAll);
         }
     }
 }
