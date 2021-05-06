@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj": {}
+    "E:\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj": {}
   },
   "projects": {
-    "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
+    "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj",
+        "projectUniqueName": "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj",
         "projectName": "FilterData.Core",
-        "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj",
-        "packagesPath": "C:\\Users\\ntthao1\\.nuget\\packages\\",
-        "outputPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\obj\\",
+        "projectPath": "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj",
+        "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+        "outputPath": "E:\\FilterData\\FilterData.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ntthao1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
+    "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
+        "projectUniqueName": "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
         "projectName": "FilterData.Infrastructure",
-        "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ntthao1\\.nuget\\packages\\",
-        "outputPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\obj\\",
+        "projectPath": "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+        "outputPath": "E:\\FilterData\\FilterData.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ntthao1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
-                "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj"
+              "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
+                "projectPath": "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj"
               }
             }
           }
@@ -97,6 +97,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -112,21 +122,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj": {
+    "E:\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
+        "projectUniqueName": "E:\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
         "projectName": "importDataExcelToDatabase.API",
-        "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
-        "packagesPath": "C:\\Users\\ntthao1\\.nuget\\packages\\",
-        "outputPath": "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\obj\\",
+        "projectPath": "E:\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
+        "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+        "outputPath": "E:\\FilterData\\importDataExcelToDatabase.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ntthao1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,11 +150,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
-                "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj"
+              "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
+                "projectPath": "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj"
               },
-              "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
-                "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj"
+              "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
+                "projectPath": "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj"
               }
             }
           }
@@ -186,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

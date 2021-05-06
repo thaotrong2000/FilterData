@@ -89,20 +89,12 @@ namespace importDataExcelToDatabase.API.Controllers
                     }
                 }
                 listCustomer = list;
+
+                // Xử lý những dữ liệu đã thêm vào trong danh sách List(listCustomer)
+                var customersGetAll = _customerService.getAll(listCustomer);
             }
 
-            // Đếm
-
-            // add list to db ..
-            // here just read and return
-
             return DemoResponse<List<Customer>>.GetResult(0, "OK", list);
-        }
-
-        [HttpPost("Insert Data")]
-        public IActionResult PostData()
-        {
-            return NoContent();
         }
     }
 }

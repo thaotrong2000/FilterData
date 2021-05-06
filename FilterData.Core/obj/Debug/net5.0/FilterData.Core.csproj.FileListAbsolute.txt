@@ -34,3 +34,15 @@ D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.
 D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.dll
 D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\ref\FilterData.Core.dll
 D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.pdb
+E:\FilterData\FilterData.Core\bin\Debug\net5.0\FilterData.Core.deps.json
+E:\FilterData\FilterData.Core\bin\Debug\net5.0\FilterData.Core.dll
+E:\FilterData\FilterData.Core\bin\Debug\net5.0\ref\FilterData.Core.dll
+E:\FilterData\FilterData.Core\bin\Debug\net5.0\FilterData.Core.pdb
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csprojAssemblyReference.cache
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfoInputs.cache
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfo.cs
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csproj.CoreCompileInputs.cache
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.dll
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\ref\FilterData.Core.dll
+E:\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.pdb

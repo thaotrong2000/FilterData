@@ -17,6 +17,6 @@ namespace FilterData.Core.Interface.Repository
         /// Phương thức thực hiện việc Lấy toàn bộ dữ liệu từ DataBase
         /// </summary>
         /// <returns></returns>
-        public IEnumerable<Customer> postData();
+        public int PostData(List<Customer> customer);
     }
 }

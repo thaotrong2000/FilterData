@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Dapper/2.0.90": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {}
+        }
+      },
       "EPPlus/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -189,6 +198,15 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "MySqlConnector/1.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MySqlConnector.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -1278,7 +1296,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "FilterData.Core": "1.0.0"
+          "Dapper": "2.0.90",
+          "FilterData.Core": "1.0.0",
+          "MySqlConnector": "1.3.8"
         },
         "compile": {
           "bin/placeholder/FilterData.Infrastructure.dll": {}
@@ -1290,6 +1310,24 @@
     }
   },
   "libraries": {
+    "Dapper/2.0.90": {
+      "sha512": "e4YjOLJptnpwHIbP8HxjaYf7So9lhUC43rvvGMEkH4Q4CiVlm4rOxYDo0HyuHlMQKj0U5Ob/nCMm52TUhTaZQg==",
+      "type": "package",
+      "path": "dapper/2.0.90",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.90.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
     "EPPlus/5.6.3": {
       "sha512": "PVcv1luDwqjyXm2vUWogW7mjC6OoW88+SEYMFwrD+FfCXmHzVML/o4RWGFbMfgT/mSEmiTnzfYBC6VHCLl+bYw==",
       "type": "package",
@@ -1608,6 +1646,37 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "MySqlConnector/1.3.8": {
+      "sha512": "zxE+MDrpfPLEUvkUR73brSLiWwDtp5yoNmEk5vEj0vzoVJmR2lBJcOPowigbkR305lM2IKgCL8TP1iIC9xSi7A==",
+      "type": "package",
+      "path": "mysqlconnector/1.3.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net5.0/MySqlConnector.dll",
+        "lib/net5.0/MySqlConnector.xml",
+        "lib/netcoreapp2.1/MySqlConnector.dll",
+        "lib/netcoreapp2.1/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard1.3/MySqlConnector.dll",
+        "lib/netstandard1.3/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.1.3.8.nupkg.sha512",
+        "mysqlconnector.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -4702,19 +4771,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ntthao1\\.nuget\\packages\\": {}
+    "C:\\Users\\Trong Thao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
+      "projectUniqueName": "E:\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
       "projectName": "importDataExcelToDatabase.API",
-      "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
-      "packagesPath": "C:\\Users\\ntthao1\\.nuget\\packages\\",
-      "outputPath": "D:\\MF817_NguyenTrongThao\\FilterData\\importDataExcelToDatabase.API\\obj\\",
+      "projectPath": "E:\\FilterData\\importDataExcelToDatabase.API\\importDataExcelToDatabase.API.csproj",
+      "packagesPath": "C:\\Users\\Trong Thao\\.nuget\\packages\\",
+      "outputPath": "E:\\FilterData\\importDataExcelToDatabase.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ntthao1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Trong Thao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4728,11 +4797,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
-              "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj"
+            "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj": {
+              "projectPath": "E:\\FilterData\\FilterData.Core\\FilterData.Core.csproj"
             },
-            "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
-              "projectPath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj"
+            "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj": {
+              "projectPath": "E:\\FilterData\\FilterData.Infrastructure\\FilterData.Infrastructure.csproj"
             }
           }
         }
@@ -4774,7 +4843,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

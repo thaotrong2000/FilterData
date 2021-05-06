@@ -36,16 +36,19 @@ namespace FilterData.Core.Service.CustomerService
         /// </summary>
         /// <returns></returns>
         /// Lấy toàn bộ thông tin khách hàng kèm theo lọc dữ liệu
-        public IEnumerable<Customer> getAll()
+        public int getAll(List<Customer> listCustomer)
         {
-            // Xử dụng để lấy DataBase
-            var customers = _customerRepository.postData();
+            // Xử dụng để lấy dữ liệu từ file Excel
+            var customers = listCustomer;
+
+            // Thêm dữ liệu từ file Excel vào DataBase ( hiện tại thì chưa lọc - updating)
+            var filterCustomer = _customerRepository.PostData(customers);
 
             // Đây là nơi để xử lý nghiệp vụ của Customer
             // Đây là điểm khác giữa CustomerService và CustomerRepository
 
             // Trả về dữ liệu cần thiết
-            throw new Exception("Thao nguyen trong");
+            return filterCustomer;
         }
 
         /// <summary>
