@@ -17,6 +17,45 @@ namespace FilterData.Infrastructure.Repository
     /// </summary>
     public class CustomerRepository : ICustomerRepository
     {
+        /// <summary>
+        /// Kiểm tra xem CustomerId đã tồn tại trong hệ thống chưa
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns>
+        /// - true: Đã tồn tại trong hệ thống ( Không thể thêm )
+        /// - false: Chưa tồn tại trong hệ thống ( Có thể thêm )
+        /// </returns>
+        /// CreatedBy: NTTHAO(6/5/2021)
+        public bool CheckExistCustomerId(string customerId)
+        {
+            // Kết nối với Database để xem CustomerId đã tồn tại hay chưa
+            // B1: Kết nối với cơ sở dữ liệu
+            string connectString = "Host = 47.241.69.179;" +
+                "Port = 3306;" +
+                "Database = MF817-Import-NTTHAO;" +
+                "User Id = dev;" +
+                "Password = 12345678;" +
+                "AllowZeroDateTime=True"
+                ;
+            IDbConnection dbConnection = new MySqlConnection(connectString);
+
+            //
+            DynamicParameters dynamicParameters = new DynamicParameters();
+            dynamicParameters.Add("@m_CustomerId", customerId);
+
+            var checkCustomerIdExist = false;
+
+            checkCustomerIdExist = dbConnection.QueryFirstOrDefault<bool>("proc_CheckExistCustomerId",
+                param: dynamicParameters, commandType: CommandType.StoredProcedure);
+            return checkCustomerIdExist;
+        }
+
+        /// <summary>
+        /// Thêm dữ liệu từ Excel vào DataBase
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <returns></returns>
+        /// CreatedBy: NTTHAO(6/5/2021)
         public int PostData(List<Customer> customer)
         {
             // Lấy dữ liệu từ Excel để thêm vào DataBase
@@ -51,6 +90,14 @@ namespace FilterData.Infrastructure.Repository
                 dynamicParameters.Add("@m_Email", listCustomer[countList].Email);
                 dynamicParameters.Add("@m_Address", listCustomer[countList].Address);
                 dynamicParameters.Add("@m_Note", listCustomer[countList].Note);
+
+                var checkIdExist = false;
+                // Kiểm tra xem CustomerId đã tồn tại trong hệ thống hay chưa
+                checkIdExist = CheckExistCustomerId(listCustomer[countList].CustomerId);
+                if (checkIdExist == true)
+                {
+                    continue;
+                }
 
                 // Thực hiện việc truyền dữ liệu vào Procedure
 

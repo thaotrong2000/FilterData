@@ -18,5 +18,7 @@ namespace FilterData.Core.Interface.Repository
         /// </summary>
         /// <returns></returns>
         public int PostData(List<Customer> customer);
+
+        public bool CheckExistCustomerId(string customerId);
     }
 }
