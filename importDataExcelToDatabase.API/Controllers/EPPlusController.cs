@@ -20,6 +20,7 @@ namespace importDataExcelToDatabase.API.Controllers
     {
         private ICustomerRepository _customerRepository;
         public ICustomerService _customerService;
+        private List<Customer> listCustomer;
 
         public EPPlusController(ICustomerService customerService, ICustomerRepository customerRepository)
         {
@@ -30,6 +31,10 @@ namespace importDataExcelToDatabase.API.Controllers
         [HttpPost("import")]
         public async Task<DemoResponse<List<Customer>>> Import(IFormFile formFile, CancellationToken cancellationToken)
         {
+            // Tạo danh sách các Customer - Trả về khách hàng
+            var list = new List<Customer>();
+
+            ExcelPackage.LicenseContext = LicenseContext.Commercial;
             if (formFile == null || formFile.Length <= 0)
             {
                 return DemoResponse<List<Customer>>.GetResult(-1, "formfile is empty");
@@ -39,8 +44,6 @@ namespace importDataExcelToDatabase.API.Controllers
             {
                 return DemoResponse<List<Customer>>.GetResult(-1, "Not Support file extension");
             }
-
-            var list = new List<Customer>();
 
             using (var stream = new MemoryStream())
             {
@@ -53,13 +56,20 @@ namespace importDataExcelToDatabase.API.Controllers
 
                     for (int row = 3; row <= rowCount; row++)
                     {
-                        string birth;
-                        if (worksheet.Cells[row, 5].Value != null)
+                        // Tạo biến để lưu DateOfBirth
+                        DateTime dateOfBirth = DateTime.Now;
+
+                        // Nếu DateOfBirth không phải là Null thì thực hiện việc xử lý dữ liệu
+                        if (worksheet.Cells[row, 6].Value != null)
                         {
-                            birth = "thao";
+                            // Lấy dữ liệu từ Excel
+                            string dateExcel = worksheet.Cells[row, 6].Value.ToString();
+
+                            // Validate dữ liệu
+                            dateOfBirth = _customerService.dateOfBirth(dateExcel);
                         }
+
                         // Tạo mới một đối tượng
-                        string dateBirth = birth;
                         Customer newCustomer = new Customer
                         {
                             CustomerId = worksheet.Cells[row, 1].Value != null ? worksheet.Cells[row, 1].Value.ToString().Trim() : null,
@@ -67,7 +77,7 @@ namespace importDataExcelToDatabase.API.Controllers
                             MemberCardId = worksheet.Cells[row, 3].Value != null ? worksheet.Cells[row, 3].Value.ToString().Trim() : null,
                             GroupName = worksheet.Cells[row, 4].Value != null ? worksheet.Cells[row, 4].Value.ToString().Trim() : null,
                             PhoneNumber = worksheet.Cells[row, 5].Value != null ? worksheet.Cells[row, 5].Value.ToString().Trim() : null,
-                            DateOfBirth = worksheet.Cells[row, 6].Value != null ? worksheet.Cells[row, 6].Value.ToString().Trim() : dateBirth,
+                            DateOfBirth = worksheet.Cells[row, 6].Value != null ? dateOfBirth : DateTime.Now,
                             CompanyName = worksheet.Cells[row, 7].Value != null ? worksheet.Cells[row, 7].Value.ToString().Trim() : null,
                             CompanyTaxCode = worksheet.Cells[row, 8].Value != null ? worksheet.Cells[row, 8].Value.ToString().Trim() : null,
                             Email = worksheet.Cells[row, 9].Value != null ? worksheet.Cells[row, 9].Value.ToString().Trim() : null,
@@ -78,12 +88,22 @@ namespace importDataExcelToDatabase.API.Controllers
                         list.Add(newCustomer);
                     }
                 }
+                listCustomer = list;
             }
+
+            // Đếm
 
             // add list to db ..
             // here just read and return
 
             return DemoResponse<List<Customer>>.GetResult(0, "OK", list);
+        }
+
+        [HttpPost("Insert Data")]
+        public IActionResult PostData()
+        {
+
+            return NoContent();
         }
     }
 }

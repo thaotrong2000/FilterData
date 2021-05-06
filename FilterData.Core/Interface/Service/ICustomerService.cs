@@ -17,6 +17,6 @@ namespace FilterData.Core.Interface.Service
         /// CreatedBy: NTTHAO(5/5/2021)
         public IEnumerable<Customer> getAll();
 
-        public string dateOfBirth(string birth);
+        public DateTime dateOfBirth(string birth);
     }
 }

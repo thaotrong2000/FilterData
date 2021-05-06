@@ -48,9 +48,45 @@ namespace FilterData.Core.Service.CustomerService
             throw new Exception("Thao nguyen trong");
         }
 
-        public string dateOfBirth(string birth)
+        /// <summary>
+        /// Xử lý dữ liệu ngày tháng cho hợp lệ
+        /// </summary>
+        /// <param name="birth"></param>
+        /// <returns></returns>
+        public DateTime dateOfBirth(string birth)
         {
-            return birth;
+            // Lọc phần tử trong mảng, và xem số phần tử trong mảng để xét điều kiện
+            var splitDate = birth.Split("/");
+
+            // Tạo ngày tháng trả về
+            DateTime dateOfBirth = DateTime.Now;
+
+            // Chuyển đổi kiểu của ngày tháng năm sang int :
+            int year = int.Parse(splitDate[2]);
+            int month = int.Parse(splitDate[1]);
+            int day = int.Parse(splitDate[0]);
+            // Kiểm tra điểu kiện, nếu có đủ cả ngày tháng năm:
+            if (splitDate.Length == 3)
+            {
+                dateOfBirth = new DateTime(year, month, day);
+            }
+
+            // Nếu chỉ có tháng và năm thì hiển thị : 1/ month / year
+
+            if (splitDate.Length == 2)
+            {
+                dateOfBirth = new DateTime(year, month, 1);
+            }
+
+            // Nếu chỉ có năm thì hiển thị : 1/1/year
+
+            if (splitDate.Length == 1)
+            {
+                dateOfBirth = new DateTime(year, 1, 1);
+            }
+
+            // Trả về ngày tháng năm sau khi đã Format
+            return dateOfBirth;
         }
     }
 }

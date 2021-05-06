@@ -40,7 +40,7 @@ namespace FilterData.Core.Entities.Customer
         /// <summary>
         /// Ngày sinh
         /// </summary>
-        public string DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         /// <summary>
         /// Tên công ty
