@@ -22,5 +22,7 @@ namespace FilterData.Core.Interface.Repository
         public bool CheckExistCustomerId(string customerId);
 
         public bool CheckExistPhoneNumber(string customerId);
+
+        public bool CheckExistGroupName(string groupName);
     }
 }

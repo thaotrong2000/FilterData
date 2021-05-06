@@ -17,6 +17,16 @@ namespace FilterData.Infrastructure.Repository
     /// </summary>
     public class CustomerRepository : ICustomerRepository
     {
+        private string connectString = "Host = 47.241.69.179;" +
+                "Port = 3306;" +
+                "Database = MF817-Import-NTTHAO;" +
+                "User Id = dev;" +
+                "Password = 12345678;" +
+                "AllowZeroDateTime=True"
+                ;
+
+        private IDbConnection dbConnection;
+
         /// <summary>
         /// Kiểm tra xem CustomerId đã tồn tại trong hệ thống chưa
         /// </summary>
@@ -30,14 +40,8 @@ namespace FilterData.Infrastructure.Repository
         {
             // Kết nối với Database để xem CustomerId đã tồn tại hay chưa
             // B1: Kết nối với cơ sở dữ liệu
-            string connectString = "Host = 47.241.69.179;" +
-                "Port = 3306;" +
-                "Database = MF817-Import-NTTHAO;" +
-                "User Id = dev;" +
-                "Password = 12345678;" +
-                "AllowZeroDateTime=True"
-                ;
-            IDbConnection dbConnection = new MySqlConnection(connectString);
+
+            dbConnection = new MySqlConnection(connectString);
 
             //
             DynamicParameters dynamicParameters = new DynamicParameters();
@@ -48,6 +52,31 @@ namespace FilterData.Infrastructure.Repository
             checkCustomerIdExist = dbConnection.QueryFirstOrDefault<bool>("proc_CheckExistCustomerId",
                 param: dynamicParameters, commandType: CommandType.StoredProcedure);
             return checkCustomerIdExist;
+        }
+
+        /// <summary>
+        /// Kiểm tra GroupName trong Excel có hợp lệ hay không ( Đã có sẵn trong DataBase là hợp lệ)
+        /// </summary>
+        /// <param name="groupName"></param>
+        /// <returns>
+        /// - true: Tên GroupName hợp lệ
+        /// - false: Tên GroupName không hợp lệ ( Hãy sửa lại )
+        /// </returns>
+        public bool CheckExistGroupName(string groupName)
+        {
+            // Kết nối với Database để xem GroupName có hợp lệ hay không
+            // B1: Kết nối với cơ sở dữ liệu
+            dbConnection = new MySqlConnection(connectString);
+
+            //
+            DynamicParameters dynamicParameters = new DynamicParameters();
+            dynamicParameters.Add("@m_GroupName", groupName);
+
+            var checkGroupName = false;
+
+            checkGroupName = dbConnection.QueryFirstOrDefault<bool>("proc_CheckExistGroupName",
+                param: dynamicParameters, commandType: CommandType.StoredProcedure);
+            return checkGroupName;
         }
 
         /// <summary>
@@ -63,16 +92,9 @@ namespace FilterData.Infrastructure.Repository
         {
             // Kết nối với Database để xem CustomerId đã tồn tại hay chưa
             // B1: Kết nối với cơ sở dữ liệu
-            string connectString = "Host = 47.241.69.179;" +
-                "Port = 3306;" +
-                "Database = MF817-Import-NTTHAO;" +
-                "User Id = dev;" +
-                "Password = 12345678;" +
-                "AllowZeroDateTime=True"
-                ;
-            IDbConnection dbConnection = new MySqlConnection(connectString);
+            dbConnection = new MySqlConnection(connectString);
 
-            //
+            // Gán các biến trong Procedure
             DynamicParameters dynamicParameters = new DynamicParameters();
             dynamicParameters.Add("@m_PhoneNumber", phoneNumber);
 
@@ -98,14 +120,7 @@ namespace FilterData.Infrastructure.Repository
 
             // Thêm vào Database
 
-            string connectString = "Host = 47.241.69.179;" +
-                "Port = 3306;" +
-                "Database = MF817-Import-NTTHAO;" +
-                "User Id = dev;" +
-                "Password = 12345678;" +
-                "AllowZeroDateTime=True"
-                ;
-            IDbConnection dbConnection = new MySqlConnection(connectString);
+            dbConnection = new MySqlConnection(connectString);
             var customers = 0;
 
             for (int countList = 0; countList < listCustomer.Count; countList++)
@@ -139,6 +154,15 @@ namespace FilterData.Infrastructure.Repository
                 if (checkPhoneNumber == true)
                 {
                     listCustomer[countList].Status = "SĐT đã có trong hệ thống";
+                    continue;
+                }
+
+                var checkGroupName = true;
+                // Kiểm tra xem tên GroupName có hợp lệ hay không
+                checkGroupName = CheckExistGroupName(listCustomer[countList].GroupName);
+                if (checkGroupName == false)
+                {
+                    listCustomer[countList].Status = "Nhóm khách hàng không có trong hệ thống";
                     continue;
                 }
 
