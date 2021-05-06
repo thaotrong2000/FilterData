@@ -144,7 +144,7 @@ namespace FilterData.Infrastructure.Repository
                 checkIdExist = CheckExistCustomerId(listCustomer[countList].CustomerId);
                 if (checkIdExist == true)
                 {
-                    listCustomer[countList].Status = "Mã khách hàng đã tồn tại trong hệ thống";
+                    listCustomer[countList].Status = string.Concat(listCustomer[countList].Status, " Mã khách hàng đã tồn tại trong hệ thống.");
                     continue;
                 }
 
@@ -153,7 +153,7 @@ namespace FilterData.Infrastructure.Repository
                 checkPhoneNumber = CheckExistPhoneNumber(listCustomer[countList].PhoneNumber);
                 if (checkPhoneNumber == true)
                 {
-                    listCustomer[countList].Status = "SĐT đã có trong hệ thống";
+                    listCustomer[countList].Status = string.Concat(listCustomer[countList].Status, $" SĐT {listCustomer[countList].PhoneNumber} đã có trong hệ thống.");
                     continue;
                 }
 
@@ -162,7 +162,7 @@ namespace FilterData.Infrastructure.Repository
                 checkGroupName = CheckExistGroupName(listCustomer[countList].GroupName);
                 if (checkGroupName == false)
                 {
-                    listCustomer[countList].Status = "Nhóm khách hàng không có trong hệ thống";
+                    listCustomer[countList].Status = string.Concat(listCustomer[countList].Status, " Nhóm khách hàng không có trong hệ thống.");
                     continue;
                 }
 

@@ -91,5 +91,35 @@ namespace FilterData.Core.Service.CustomerService
             // Trả về ngày tháng năm sau khi đã Format
             return dateOfBirth;
         }
+
+        /// <summary>
+        /// Lọc dữ liệu sợ từ Excel ( Tiền xử lý dữ liệu )
+        /// </summary>
+        /// <returns></returns>
+        public List<Customer> FilterDateExcel(List<Customer> listCustomer)
+        {
+            List<Customer> list = listCustomer;
+
+            // Sự dụng 2 vòng lặp For lồng nhau để tìm kiếm những liệu trùng nhau
+            for (int start = 0; start < list.Count - 1; start++)
+            {
+                for (int end = start + 1; end < list.Count; end++)
+                {
+                    if (list[start].CustomerId == list[end].CustomerId)
+                    {
+                        list[start].Status = string.Concat(listCustomer[start].Status, " Mã khách hàng đã trùng với mã khách hàng khác trong tệp nhập khẩu.");
+                        list[end].Status = string.Concat(listCustomer[end].Status, " Mã khách hàng đã trùng với mã khách hàng khác trong tệp nhập khẩu.");
+                    }
+                    if (list[start].PhoneNumber == list[end].PhoneNumber)
+                    {
+                        list[start].Status = string.Concat(listCustomer[start].Status, " SĐT đã trùng với SĐT khác trong tệp nhập khẩu.");
+                        list[end].Status = string.Concat(listCustomer[end].Status, " SĐT đã trùng với SĐT khác trong tệp nhập khẩu.");
+                    }
+                }
+            }
+
+            // Trả về danh sách sau khi đã lọc dữ liệu trong Excel
+            return list;
+        }
     }
 }

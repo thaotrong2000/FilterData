@@ -17,6 +17,15 @@ namespace FilterData.Core.Interface.Service
         /// CreatedBy: NTTHAO(5/5/2021)
         public List<Customer> getAll(List<Customer> listCustomer);
 
+        /// <summary>
+        /// Xử lý dữ liệu ngày tháng năm từ Excel sang DataBase
+        /// </summary>
+        /// <param name="birth"></param>
+        /// <returns>
+        /// DateTime: DateOfBirth
+        /// </returns>
         public DateTime dateOfBirth(string birth);
+
+        public List<Customer> FilterDateExcel(List<Customer> listCustomer);
     }
 }

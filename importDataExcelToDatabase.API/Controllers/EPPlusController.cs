@@ -68,7 +68,7 @@ namespace importDataExcelToDatabase.API.Controllers
                             // Lấy dữ liệu từ Excel
                             string dateExcel = worksheet.Cells[row, 6].Value.ToString();
 
-                            // Validate dữ liệu
+                            // Validate dữ liệu ngày tháng năm
                             dateOfBirth = _customerService.dateOfBirth(dateExcel);
                         }
 
@@ -86,7 +86,7 @@ namespace importDataExcelToDatabase.API.Controllers
                             Email = worksheet.Cells[row, 9].Value != null ? worksheet.Cells[row, 9].Value.ToString().Trim() : null,
                             Address = worksheet.Cells[row, 10].Value != null ? worksheet.Cells[row, 10].Value.ToString().Trim() : null,
                             Note = worksheet.Cells[row, 11].Value != null ? worksheet.Cells[row, 11].Value.ToString().Trim() : null,
-                            Status = "Hợp lệ"
+                            Status = string.Empty
                         };
                         // Thêm một bản ghi vào danh sách
                         list.Add(newCustomer);
@@ -96,6 +96,8 @@ namespace importDataExcelToDatabase.API.Controllers
 
                 // Xử lý những dữ liệu đã thêm vào trong danh sách List(listCustomer)
                 customersGetAll = _customerService.getAll(listCustomer);
+                // Xử lý dữ liệu trên Excel, chưa dùng đến DataBase
+                customersGetAll = _customerService.FilterDateExcel(listCustomer);
             }
 
             return DemoResponse<List<Customer>>.GetResult(0, "OK", customersGetAll);
