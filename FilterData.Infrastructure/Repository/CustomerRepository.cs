@@ -51,6 +51,39 @@ namespace FilterData.Infrastructure.Repository
         }
 
         /// <summary>
+        /// Kiểm tra xem PhoneNumber đã tồn tại trong hệ thống chưa
+        /// </summary>
+        /// <param name="phoneNumber"></param>
+        /// <returns>
+        /// - true: Đã tồn tại trong hệ thống ( Không thể thêm )
+        /// - false: Chưa tồn tại trong hệ thống ( Có thể thêm )
+        /// </returns>
+        /// CreatedBy: NTTHAO(6/5/2021)
+        public bool CheckExistPhoneNumber(string phoneNumber)
+        {
+            // Kết nối với Database để xem CustomerId đã tồn tại hay chưa
+            // B1: Kết nối với cơ sở dữ liệu
+            string connectString = "Host = 47.241.69.179;" +
+                "Port = 3306;" +
+                "Database = MF817-Import-NTTHAO;" +
+                "User Id = dev;" +
+                "Password = 12345678;" +
+                "AllowZeroDateTime=True"
+                ;
+            IDbConnection dbConnection = new MySqlConnection(connectString);
+
+            //
+            DynamicParameters dynamicParameters = new DynamicParameters();
+            dynamicParameters.Add("@m_PhoneNumber", phoneNumber);
+
+            var checkPhoneNumberExist = false;
+
+            checkPhoneNumberExist = dbConnection.QueryFirstOrDefault<bool>("proc_CheckExistPhoneNumber",
+                param: dynamicParameters, commandType: CommandType.StoredProcedure);
+            return checkPhoneNumberExist;
+        }
+
+        /// <summary>
         /// Thêm dữ liệu từ Excel vào DataBase
         /// </summary>
         /// <param name="customer"></param>
@@ -95,6 +128,14 @@ namespace FilterData.Infrastructure.Repository
                 // Kiểm tra xem CustomerId đã tồn tại trong hệ thống hay chưa
                 checkIdExist = CheckExistCustomerId(listCustomer[countList].CustomerId);
                 if (checkIdExist == true)
+                {
+                    continue;
+                }
+
+                var checkPhoneNumber = false;
+                // Kiểm tra xem PhoneNumber đã tồn tại trong hệ thống hay chưa
+                checkPhoneNumber = CheckExistPhoneNumber(listCustomer[countList].PhoneNumber);
+                if (checkPhoneNumber == true)
                 {
                     continue;
                 }

@@ -20,5 +20,7 @@ namespace FilterData.Core.Interface.Repository
         public int PostData(List<Customer> customer);
 
         public bool CheckExistCustomerId(string customerId);
+
+        public bool CheckExistPhoneNumber(string customerId);
     }
 }
