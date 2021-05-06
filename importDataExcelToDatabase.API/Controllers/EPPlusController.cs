@@ -102,7 +102,6 @@ namespace importDataExcelToDatabase.API.Controllers
         [HttpPost("Insert Data")]
         public IActionResult PostData()
         {
-
             return NoContent();
         }
     }

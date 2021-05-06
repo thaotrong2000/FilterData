@@ -39,7 +39,7 @@ namespace FilterData.Core.Service.CustomerService
         public IEnumerable<Customer> getAll()
         {
             // Xử dụng để lấy DataBase
-            var customers = _customerRepository.getAll();
+            var customers = _customerRepository.postData();
 
             // Đây là nơi để xử lý nghiệp vụ của Customer
             // Đây là điểm khác giữa CustomerService và CustomerRepository

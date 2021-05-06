@@ -14,9 +14,9 @@ namespace FilterData.Infrastructure.Repository
     /// </summary>
     public class CustomerRepository : ICustomerRepository
     {
-        public IEnumerable<Customer> getAll()
+        public IEnumerable<Customer> postData()
         {
-            throw new Exception("Nguyen Trong Thao");
+            throw new NotImplementedException();
         }
     }
 }
