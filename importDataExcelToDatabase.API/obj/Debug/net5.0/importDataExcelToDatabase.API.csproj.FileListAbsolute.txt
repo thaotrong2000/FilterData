@@ -70,3 +70,39 @@ E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\
 E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
 E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.pdb
 E:\importDataExcelToDatabase.API - Copy\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.genruntimeconfig.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\appsettings.Development.json
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\appsettings.json
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.exe
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.deps.json
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.runtimeconfig.json
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.runtimeconfig.dev.json
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\importDataExcelToDatabase.API.pdb
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\EPPlus.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Core.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Infrastructure.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Core.pdb
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\bin\Debug\net5.0\FilterData.Infrastructure.pdb
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csprojAssemblyReference.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.AssemblyInfoInputs.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.AssemblyInfo.cs
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csproj.CoreCompileInputs.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.MvcApplicationPartsAssemblyInfo.cs
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.MvcApplicationPartsAssemblyInfo.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\staticwebassets\importDataExcelToDatabase.API.StaticWebAssets.Manifest.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\staticwebassets\importDataExcelToDatabase.API.StaticWebAssets.xml
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\scopedcss\bundle\importDataExcelToDatabase.API.styles.css
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.RazorTargetAssemblyInfo.cache
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.csproj.CopyComplete
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\ref\importDataExcelToDatabase.API.dll
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.pdb
+D:\MF817_NguyenTrongThao\FilterData\importDataExcelToDatabase.API\obj\Debug\net5.0\importDataExcelToDatabase.API.genruntimeconfig.cache

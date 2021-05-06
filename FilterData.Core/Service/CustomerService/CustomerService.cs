@@ -47,5 +47,10 @@ namespace FilterData.Core.Service.CustomerService
             // Trả về dữ liệu cần thiết
             throw new Exception("Thao nguyen trong");
         }
+
+        public string dateOfBirth(string birth)
+        {
+            return birth;
+        }
     }
 }

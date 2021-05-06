@@ -1,5 +1,7 @@
 ﻿using FilterData.Core.Entities.Customer;
 using FilterData.Core.Entities.Respon;
+using FilterData.Core.Interface.Repository;
+using FilterData.Core.Interface.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml;
@@ -16,6 +18,15 @@ namespace importDataExcelToDatabase.API.Controllers
     [ApiController]
     public class EPPlusController : ControllerBase
     {
+        private ICustomerRepository _customerRepository;
+        public ICustomerService _customerService;
+
+        public EPPlusController(ICustomerService customerService, ICustomerRepository customerRepository)
+        {
+            _customerRepository = customerRepository;
+            _customerService = customerService;
+        }
+
         [HttpPost("import")]
         public async Task<DemoResponse<List<Customer>>> Import(IFormFile formFile, CancellationToken cancellationToken)
         {
@@ -42,19 +53,26 @@ namespace importDataExcelToDatabase.API.Controllers
 
                     for (int row = 3; row <= rowCount; row++)
                     {
-                        double dataExcel = Convert.ToDouble(worksheet.Cells[row, 6].Value.ToString());
+                        string birth;
+                        if (worksheet.Cells[row, 5].Value != null)
+                        {
+                            birth = "thao";
+                        }
+                        // Tạo mới một đối tượng
+                        string dateBirth = birth;
                         Customer newCustomer = new Customer
                         {
-                            CustomerId = worksheet.Cells[row, 1].Value.ToString().Trim(),
-                            FullName = worksheet.Cells[row, 2].Value.ToString().Trim(),
-                            MemberCardId = worksheet.Cells[row, 3].Value.ToString().Trim(),
-                            GroupName = worksheet.Cells[row, 4].Value.ToString().Trim(),
-                            PhoneNumber = worksheet.Cells[row, 5].Value.ToString().Trim(),
-                            //DateOfBirth = dateBirth,
-                            //DateOfBirth = worksheet.Cells[row, 6].Value.ToString(),
-                            //CompanyName = worksheet.Cells[row, 7].Value.ToString().Trim(),
-                            //CompanyTaxCode = worksheet.Cells[row, 8].Value.ToString().Trim(),
-                            //Email = worksheet.Cells[row, 9].Value.ToString().Trim(),
+                            CustomerId = worksheet.Cells[row, 1].Value != null ? worksheet.Cells[row, 1].Value.ToString().Trim() : null,
+                            FullName = worksheet.Cells[row, 2].Value != null ? worksheet.Cells[row, 2].Value.ToString().Trim() : null,
+                            MemberCardId = worksheet.Cells[row, 3].Value != null ? worksheet.Cells[row, 3].Value.ToString().Trim() : null,
+                            GroupName = worksheet.Cells[row, 4].Value != null ? worksheet.Cells[row, 4].Value.ToString().Trim() : null,
+                            PhoneNumber = worksheet.Cells[row, 5].Value != null ? worksheet.Cells[row, 5].Value.ToString().Trim() : null,
+                            DateOfBirth = worksheet.Cells[row, 6].Value != null ? worksheet.Cells[row, 6].Value.ToString().Trim() : dateBirth,
+                            CompanyName = worksheet.Cells[row, 7].Value != null ? worksheet.Cells[row, 7].Value.ToString().Trim() : null,
+                            CompanyTaxCode = worksheet.Cells[row, 8].Value != null ? worksheet.Cells[row, 8].Value.ToString().Trim() : null,
+                            Email = worksheet.Cells[row, 9].Value != null ? worksheet.Cells[row, 9].Value.ToString().Trim() : null,
+                            Address = worksheet.Cells[row, 10].Value != null ? worksheet.Cells[row, 10].Value.ToString().Trim() : null,
+                            Note = worksheet.Cells[row, 11].Value != null ? worksheet.Cells[row, 11].Value.ToString().Trim() : null
                         };
                         // Thêm một bản ghi vào danh sách
                         list.Add(newCustomer);

@@ -28,3 +28,18 @@ E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5
 E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.dll
 E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\ref\FilterData.Infrastructure.dll
 E:\importDataExcelToDatabase.API - Copy\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.pdb
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.deps.json
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\bin\Debug\net5.0\ref\FilterData.Infrastructure.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Infrastructure.pdb
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Core.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\bin\Debug\net5.0\FilterData.Core.pdb
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csprojAssemblyReference.cache
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.AssemblyInfoInputs.cache
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.AssemblyInfo.cs
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.csproj.CopyComplete
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\ref\FilterData.Infrastructure.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Infrastructure\obj\Debug\net5.0\FilterData.Infrastructure.pdb

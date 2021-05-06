@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vaOea+0hVzmTn1DERovHueTACQpoeo6sTKBIDTcn9JErvWn/6BMTOiHyy5jMTsKXrLOEOV9rCGupjuw8SpQTA==",
+  "dgSpecHash": "UPnEUv0qxke+QcJW3EZW0d0yuh4sg5bP0QFX+4C0tMkZ4wm0AZ8U+AkZdqHMWf6/LBUH22Raq5bmvNZMpAM2xg==",
   "success": true,
-  "projectFilePath": "E:\\importDataExcelToDatabase.API - Copy\\FilterData.Core\\FilterData.Core.csproj",
+  "projectFilePath": "D:\\MF817_NguyenTrongThao\\FilterData\\FilterData.Core\\FilterData.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

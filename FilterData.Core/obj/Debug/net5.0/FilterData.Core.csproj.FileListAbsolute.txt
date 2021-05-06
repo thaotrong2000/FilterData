@@ -22,3 +22,15 @@ E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterD
 E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.dll
 E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\ref\FilterData.Core.dll
 E:\importDataExcelToDatabase.API - Copy\FilterData.Core\obj\Debug\net5.0\FilterData.Core.pdb
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\bin\Debug\net5.0\FilterData.Core.deps.json
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\bin\Debug\net5.0\FilterData.Core.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\bin\Debug\net5.0\ref\FilterData.Core.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\bin\Debug\net5.0\FilterData.Core.pdb
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csprojAssemblyReference.cache
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfoInputs.cache
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.AssemblyInfo.cs
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.csproj.CoreCompileInputs.cache
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\ref\FilterData.Core.dll
+D:\MF817_NguyenTrongThao\FilterData\FilterData.Core\obj\Debug\net5.0\FilterData.Core.pdb
